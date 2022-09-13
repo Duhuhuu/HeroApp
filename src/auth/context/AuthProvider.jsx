@@ -15,7 +15,8 @@ const init = () => {
     logged: !!user,
     user: user,
   }
-}
+}  
+
 
 
 export const AuthProvider = ({ children }) => {
