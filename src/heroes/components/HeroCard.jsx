@@ -19,7 +19,7 @@ export const HeroCard = ({ id,
     characters 
 }) => {
 
-    const heroImagenUrl = `/assets/heroes/${id}.jpg`;
+    const heroImagenUrl = `https://raw.githubusercontent.com/Duhuhuu/HeroApp/main/assets/heroes/${id}.jpg`;
     // Para mostrar solo un dato si el alter ego es diferente del character
     // const charactesByHero = (<p> {characters } </p>);
 
